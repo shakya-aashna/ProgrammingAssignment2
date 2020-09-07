@@ -32,9 +32,11 @@ x$setinv(inv)
 inv
 }
 
+## Checking the program
 m <- matrix(rnorm(16),4,4)
 m1 <- makeCacheMatrix(m)
 cacheSolve(m1)
+
 [,1] [,2] [,3] [,4]
 [1,] -0.1653269 0.2592203 0.6176218 -0.7520955
 [2,] 0.2828334 -0.1853499 0.4511382 0.2094365
